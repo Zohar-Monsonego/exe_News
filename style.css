@@ -1,0 +1,351 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  margin: 0 auto;
+  border: 3px solid #000000;
+  height: 800px;
+}
+#header_ruler {
+  background-color: rgb(60, 58, 58);
+  border-radius: 5px;
+  height: 50px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+
+#ruler_list {
+  font-size: 22px;
+  color: white;
+  margin-right: 5%;
+  padding-top: 5px;
+}
+
+.text_list {
+  padding-right: 15px;
+  padding-left: 9px;
+}
+
+.logo_img {
+  display: inline-block;
+  position: absolute;
+  right: 20px;
+}
+
+.bottom_line_header {
+  display: inline-block;
+  background-color: rgb(191, 184, 184);
+  padding-bottom: 3px;
+}
+
+#line1 {
+  border: 1px solid red;
+  position: absolute;
+  right: 84px;
+  width: 55px;
+  height: 2px;
+}
+
+#line2 {
+  border: 1px solid rgb(33, 85, 40);
+  position: absolute;
+  right: 180px;
+  width: 100px;
+  height: 2px;
+}
+
+#line3 {
+  border: 1px solid rgb(44, 165, 195);
+  position: absolute;
+  right: 318px;
+  width: 95px;
+  height: 2px;
+}
+
+#line4 {
+  border: 1px solid rgb(230, 0, 255);
+  position: absolute;
+  right: 452px;
+  width: 108px;
+  height: 2px;
+}
+
+#line5 {
+  border: 1px solid rgb(227, 125, 179);
+  position: absolute;
+  right: 597px;
+  width: 52px;
+  height: 2px;
+}
+
+#line6 {
+  border: 1px solid rgb(216, 211, 140);
+  position: absolute;
+  right: 687px;
+  width: 57px;
+  height: 2px;
+}
+
+#line7 {
+  border: 1px solid rgb(176, 246, 13);
+  position: absolute;
+  right: 778px;
+  width: 42px;
+  height: 2px;
+}
+
+#line8 {
+  border: 1px solid rgb(170, 231, 235);
+  position: absolute;
+  right: 855px;
+  width: 35px;
+  height: 2px;
+}
+
+#line9 {
+  border: 1px solid rgb(188, 160, 243);
+  position: absolute;
+  right: 925px;
+  width: 55px;
+  height: 2px;
+}
+
+#line10 {
+  border: 1px solid rgb(240, 191, 32);
+  position: absolute;
+  right: 1010px;
+  width: 110px;
+  height: 2px;
+}
+
+#line11 {
+  border: 1px solid rgb(105, 21, 194);
+  position: absolute;
+  right: 1150px;
+  width: 70px;
+  height: 2px;
+}
+
+#line12 {
+  border: 1px solid rgb(196, 196, 185);
+  position: absolute;
+  right: 1253px;
+  width: 78px;
+  height: 2px;
+}
+
+#line13 {
+  border: 1px solid rgb(152, 197, 169);
+  position: absolute;
+  right: 1365px;
+  width: 65px;
+  height: 2px;
+}
+
+.website_header {
+  height: 150px;
+  position: relative;
+}
+
+.logo_image_header {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+}
+
+.main_line_header_red {
+  position: absolute;
+  width: 130px;
+  height: 35px;
+  top: 103px;
+  right: 80px;
+  background-color: red;
+}
+
+.main_line_header_grey {
+  position: absolute;
+  width: 130px;
+  height: 13px;
+  top: 135px;
+  right: 80px;
+  background-color: rgb(60, 58, 58);
+}
+
+.main_text_header {
+  position: absolute;
+  top: 100px;
+  right: 70px;
+  color: white;
+  padding-bottom: 14px;
+  margin-right: 15px;
+  font-size: 45px;
+}
+
+.header_bottom_line {
+  position: absolute;
+  height: 2px;
+  width: 1330px;
+  right: 80px;
+  background-color: #000000;
+  top: 148px;
+}
+
+.header_left_p {
+  position: absolute;
+  font-weight: bold;
+  font-size: 23px;
+  right: 1300px;
+  top: 120px;
+}
+
+#arrow_header_img {
+  position: absolute;
+  right: 1420px;
+  top: 126px;
+}
+
+#news_flashes_card {
+  position: relative;
+  display: flow-root;
+  background-color: rgb(195, 188, 188);
+  height: 135px;
+  top: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-right: 60px;
+}
+
+#article_card {
+  float: right;
+  width: 16%;
+}
+
+#hour_card {
+  display: inline-block;
+  background-color: rgb(199, 26, 26);
+  color: white;
+  width: 65px;
+  height: 20px;
+  margin-top: 15px;
+  padding-right: 4px;
+}
+
+#flashes_p {
+  top: 40px;
+  right: 35px;
+  color: black;
+  font-weight: bold;
+  width: 80%;
+  margin-top: 10px;
+}
+
+/* #line {
+  background-color: rgb(60, 58, 58);
+  height: 10px;
+  right: 200px;
+  top: 25px;
+} */
+
+#bottom_line_flashes {
+  position: absolute;
+  background-color: rgb(60, 58, 58);
+  height: 6px;
+  width: 1300px;
+  top: 120px;
+}
+
+#square_flashes1 {
+  position: absolute;
+  background-color: rgb(60, 58, 58);
+  width: 25px;
+  height: 25px;
+  top: 101px;
+  right: 1375px;
+}
+
+#square_flashes2 {
+  position: absolute;
+  background-color: rgb(60, 58, 58);
+  width: 25px;
+  height: 25px;
+  top: 101px;
+  right: 1405px;
+}
+
+#flashes_right_arrow {
+  position: absolute;
+  top: 103px;
+  right: 1377px;
+}
+
+#flashes_left_arrow {
+  position: absolute;
+  top: 103px;
+  right: 1409px;
+}
+
+#report {
+  position: relative;
+  height: 340px;
+}
+
+#report_p {
+  position: absolute;
+  background-color: rgb(199, 26, 26);
+  color: white;
+  font-style: oblique;
+  font-size: 20px;
+  margin-top: 65px;
+  margin-right: 62px;
+}
+
+#report_h_part1 {
+  position: absolute;
+  background-color: rgb(60, 58, 58);
+  color: white;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-right: 62px;
+}
+
+#report_h_part2 {
+  position: absolute;
+  background-color: rgb(60, 58, 58);
+  color: white;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-right: 62px;
+}
+
+#report_text {
+  position: absolute;
+  color: rgb(60, 58, 58);
+  width: 42%;
+  margin-top: 220px;
+  margin-right: 62px;
+  font-size: 26px;
+}
+
+#report_img {
+  position: absolute;
+  top: 62px;
+  margin-right: 800px;
+  width: 660px;
+}
+
+#signing {
+  position: absolute;
+  color: rgb(60, 58, 58);
+  font-size: 16px;
+  margin-top: 380px;
+  margin-right: 65px;
+  color: rgb(60, 58, 58);
+}
+
+/* Answer to the question:
+If we would not define the parent element in parts 4 and 6 as relative, the child elements will not be placed according to the parent elements.
+*/
